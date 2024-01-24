@@ -4,8 +4,12 @@ const Application = () => {
   return (
     <div>
         <form>
-            <input type="text" name="name"/>
-            {/* <textarea name="address"/> */}
+            <h1>Job Application Form</h1>
+            <h3>Section 1B</h3>
+            <label htmlFor="name">name</label>
+            <input type="text" name="name" id="name"/>
+            <label htmlFor="address" >address</label>
+            <textarea name="address" id="address"/>
             <input type="radio" name="quali" value="hs"/>HS
             {/* <input type="radio" name="quali" value="graduate"/>Graduate */}
             <input type="checkbox" name="food" value="Chicken"/> Chicken
