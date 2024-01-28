@@ -22,6 +22,11 @@ describe("Application",()=>{
         expect(qualiElement).toBeInTheDocument();
         const favFoodElement = screen.getByRole("checkbox");
         expect(favFoodElement).toBeInTheDocument();
+        const addressElement2 = screen.getByLabelText("address");
+        expect(addressElement2).toBeInTheDocument();
+        const nameElement4 = screen.getByDisplayValue("Manoj");
+        expect(nameElement4).toBeInTheDocument();
+        
         
     })
 

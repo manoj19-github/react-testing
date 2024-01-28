@@ -7,7 +7,7 @@ const Application = () => {
             <h1>Job Application Form</h1>
             <h3>Section 1B</h3>
             <label htmlFor="name">name</label>
-            <input type="text" name="name" id="name"/>
+            <input type="text" name="name" id="name" value="Manoj" onChange={()=>{}}/>
             <label htmlFor="address" >address</label>
             <textarea name="address" id="address"/>
             <input type="radio" name="quali" value="hs"/>HS
